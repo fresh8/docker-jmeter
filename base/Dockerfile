@@ -23,3 +23,4 @@ RUN rm -rf apache-jmeter-${JMETER_VERSION}.tgz \
 	apt-get -y --purge autoremove && \
 	apt-get -y clean && \
 	rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
