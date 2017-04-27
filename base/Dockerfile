@@ -2,7 +2,7 @@ FROM cirit/oracle-java:latest
 
 MAINTAINER Cagdas Cirit <cagdascirit@gmail.com>
 
-ENV JMETER_VERSION=2.13
+ENV JMETER_VERSION=3.2
 ENV JMETER_HOME=/usr/local/apache-jmeter-${JMETER_VERSION}
 ENV PATH=${JMETER_HOME}/bin:${PATH}
 
